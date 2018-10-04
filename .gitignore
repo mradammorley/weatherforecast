@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# IDE config
+.idea
+
+# dotenv environment variables file
+.env
+
+# Bundled file
+public/bundle.js
