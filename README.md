@@ -1,6 +1,6 @@
 # Weather Forecast
 
-A small web app that displays a one day weather forecast for a specific city. Uses https://openweathermap.org/ to fetch the weather data and React/Redux render the interface.
+A small web app that displays a one day weather forecast for a specific city. Uses https://openweathermap.org/ to fetch the weather data and React/Redux to render the interface.
 
 ## Getting Started
 
@@ -8,13 +8,13 @@ A small web app that displays a one day weather forecast for a specific city. Us
 
 Run `npm install` from the root directory, to install the necessary node modules locally.
 
-`npm start` should then spin up a server at `localhost:8080` to view the app in your browser.
-
-If making changes open a different console tab and use `npm run dev` which will watch for changes and rebuild.
-
 ### Usage
 
-Run `npm run dev` and `npm start` to start `nodemon` and the dev server.
+`npm start` should spin up a server at `localhost:8080` to view the app in your browser.
+
+### Development
+
+If making changes, open another console tab and use `npm run dev` which will watch for changes and rebuild.
 
 ## Built With
 
