@@ -1,22 +1,22 @@
 import React from "react";
-import { shallow, mount } from "enzyme";
+import {mount} from "enzyme";
+import {Provider} from "react-redux";
+import {store} from "../helpers/store";
 import App from "./App";
 
 describe("App component", () => {
-    let component, mountedComponent;
+    let mountedComponent;
 
     beforeEach(() => {
-        component = shallow(
-            <App />,
-        );
-
         mountedComponent = mount(
-            <App />,
+            <Provider store={store}>
+                <App/>
+            </Provider>,
         );
     });
 
     it('Should render successfully', () => {
-        expect(component.exists()).toEqual(true);
+        expect(mountedComponent.exists()).toEqual(true);
     });
 
 });
