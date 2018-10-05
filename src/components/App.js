@@ -5,7 +5,7 @@ import {weatherActions} from "../actions/weather.actions";
 
 class App extends React.Component {
     componentDidMount() {
-        this.props.dispatch(weatherActions.refreshWeather());
+        this.props.dispatch(weatherActions.getWeather());
     }
 
     render() {
