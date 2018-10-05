@@ -4,7 +4,7 @@ const initialState = {};
 
 export function weather(state = initialState, action) {
     switch (action.type) {
-        case weatherTypes.REFRESH_WEATHER:
+        case weatherTypes.REFRESH_WEATHER_SUCCESS:
             return {
                 ...state,
                 ...action.payload
