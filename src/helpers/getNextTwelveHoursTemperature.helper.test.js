@@ -9,4 +9,10 @@ describe("getNextTwelveHoursTemperature() function", () => {
         expect(twelveHours).toEqual(everyThreeHours);
     });
 
+    let twelveHoursNoDataPassed = getNextTwelveHoursTemperature();
+
+    it('Should return false if no object is passed', () => {
+        expect(twelveHoursNoDataPassed).toEqual(false);
+    });
+
 });
