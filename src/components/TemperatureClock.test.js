@@ -4,7 +4,7 @@ import {Provider} from "react-redux";
 import {store} from "../helpers/store";
 import TemperatureClock from "./TemperatureClock";
 
-describe("App component", () => {
+describe("TemperatureClock component", () => {
     let mountedComponent;
 
     beforeEach(() => {
