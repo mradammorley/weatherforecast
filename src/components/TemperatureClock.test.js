@@ -19,4 +19,8 @@ describe("TemperatureClock component", () => {
         expect(mountedComponent.exists()).toEqual(true);
     });
 
+    it('Should render a div with className CalendarDaysHeader which has 12 children', () => {
+        expect(component.find('div.TemperatureClock').children()).toHaveLength(12);
+    });
+
 });
