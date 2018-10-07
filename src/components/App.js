@@ -22,8 +22,7 @@ App.propTypes = {
 
 const mapStateToProps = (store) => {
     return {
-        weather: store.weather,
-        store: store
+        weather: store.weather
     };
 };
 
