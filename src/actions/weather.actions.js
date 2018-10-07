@@ -19,7 +19,7 @@ const getWeather = () => (dispatch) => {
     dispatch(getWeatherStart());
 
     return axios({
-        url: `http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=28e87bf53e5eabbdcb97fcd6a3df0c9f`,
+        url: `http://api.openweathermap.org/data/2.5/forecast?q=London,uk&appid=28e87bf53e5eabbdcb97fcd6a3df0c9f`,
         method: 'get',
     })
         .then(response => {
