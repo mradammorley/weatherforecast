@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import {weatherActions} from "../actions/weather.actions";
+import TemperatureClock from "./TemperatureClock";
 
 class App extends React.Component {
     componentDidMount() {
@@ -10,8 +11,10 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className='App' />
-        );
+            <div className='App'>
+                <TemperatureClock />
+            </div>
+        )
     }
 }
 

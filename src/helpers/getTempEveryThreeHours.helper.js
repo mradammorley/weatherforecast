@@ -2,7 +2,6 @@ export const getTempEveryThreeHours = (forecast) => {
     if (typeof forecast !== "object") {
         return false;
     }
-
     let data = [];
     for (let i = 0; i < 5; i++) {
         let measurement = {};
