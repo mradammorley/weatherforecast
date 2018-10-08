@@ -24,7 +24,9 @@ If making changes, open another console tab and use `npm run dev` which will wat
 
 * [React](https://reactjs.org/) - Rendering the interface
 * [Redux](https://redux.js.org/) - State management
-* [Node](https://reactjs.org/) - Runtime environment
+* [Jest](https://jestjs.io/) - Testing Library
+* [Enzyme](https://github.com/airbnb/enzyme) - More testing utilities
+* [Node](https://nodejs.org) - Runtime environment
 * [Sass](https://sass-lang.com/) - CSS extension
 * [Babel](https://babeljs.io/) - Javascript compiler
 * [WebPack](https://webpack.js.org/) - Dependency manager
