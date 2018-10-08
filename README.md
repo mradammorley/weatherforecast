@@ -1,6 +1,6 @@
 # Weather Forecast
 
-A small app that shows how the temperature will change over the next 12 hours using a coloured clock face.
+A small app that shows how the temperature will change over the next 12 hours using a coloured clock face. Applications for this could be a wallpaper or background for a phone or calendar app.
 
 View a demo here http://adammorley.co.uk/portfolio/weatherforecast/
 
