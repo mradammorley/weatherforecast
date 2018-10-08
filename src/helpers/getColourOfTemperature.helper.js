@@ -8,7 +8,7 @@ export const getColourOfTemperature = (temperature) => {
         coldestTemp = -5,
         tempRange = hottestTemp - coldestTemp,
         hottestColour = 0,
-        coldestColour = 200,
+        coldestColour = 360,
         colourRange = hottestColour - coldestColour,
         multiplier = colourRange / tempRange,
         temperatureOverLowest = temperature - coldestTemp,
