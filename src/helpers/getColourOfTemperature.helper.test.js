@@ -12,4 +12,9 @@ describe("getColourOfTemperature() function", () => {
         expect(coldColourHue).toEqual(200);
     });
 
+    let colourHueBadParam = getColourOfTemperature("test");
+    it("Should return false with bad params", () => {
+        expect(colourHueBadParam).toEqual(false);
+    });
+
 });
